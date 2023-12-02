@@ -25,7 +25,7 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== TRUE) {
     <div class="alert alert-success my-5">
       Welcome ! You are now signed in to your account. (GUVI TASK PROFILE PAGE)
     </div>
-    <!-- User profile -->
+    <!-- User profile .. -->
     <div class="row justify-content-center">
       <div class="col-lg-5 text-center">
         <img src="./img/man.png" class="img-fluid rounded" alt="User avatar" width="180">

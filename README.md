@@ -27,8 +27,7 @@ CREATE TABLE `users` (
 * Run the above command in mysql command line interface in terminal.
 * To make the `id` to be __auto incremented__ , run the following command.
 ```sql
-ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+ALTER TABLE `users` MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 ```
 * After setting these things in the local MySQL server , modify the `config.php` with appropriate fields as mentioned in the comments.
 ```php

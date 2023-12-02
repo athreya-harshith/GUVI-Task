@@ -2,6 +2,10 @@
 * This repository consists login and registration system using MySQL and PHP.
 
 ## Follow the below steps to setup the project
+* Clone the repository with the below command first.
+```
+git clone https://github.com/athreya-harshith/GUVI-Task.git
+```
 * Create a database with name `guvi_task`  with the following command.
 ```sql
 create database guvi_task;

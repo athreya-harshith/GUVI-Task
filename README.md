@@ -6,6 +6,7 @@
 ```
 git clone https://github.com/athreya-harshith/GUVI-Task.git
 ```
+* Open the MySQL CLI in the teminal and follow the below procedures to complete the project setup.
 * Create a database with name `guvi_task`  with the following command.
 ```sql
 create database guvi_task;

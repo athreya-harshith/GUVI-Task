@@ -1,8 +1,8 @@
 <?php
-define("DB_SERVER", "localhost");
-define("DB_USERNAME", "root");
-define("DB_PASSWORD", "athreya@123");
-define("DB_NAME", "guvi_task");
+define("DB_SERVER", "localhost");// in local repository 
+define("DB_USERNAME", "root");//name of the user
+define("DB_PASSWORD", "");// please provid the password for the database 
+define("DB_NAME", "guvi_task");// name of the database
 # Connection
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 # Checking the  connection

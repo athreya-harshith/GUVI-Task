@@ -82,7 +82,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
           <p class="pcenter"> <strong>Guvi Task Login</strong> </p>
           <h1>Log In</h1>
           <p>Please login to continue</p>
-          <!-- form starts here -->
           <form action="<?= htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post" novalidate>
             <div class="mb-3">
               <label for="user_login" class="form-label">Email or username</label>
@@ -103,7 +102,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
             <p class="mb-0">Don't have an account ? <a href="./register.php">Sign Up</a></p>
           </form>
-          <!-- form ends here -->
         </div>
       </div>
     </div>

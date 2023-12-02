@@ -103,6 +103,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <div class="row min-vh-100 justify-content-center align-items-center">
       <div class="col-lg-5">
         <div class="form-wrap border rounded p-4">
+          <p class="pcenter"><strong>Guvi Task Registeration </strong></p>
           <h1>Sign up</h1>
           <p>Please fill this form to register</p>
           <!-- form starts here -->

@@ -2,6 +2,10 @@
 body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
+.pcenter
+{
+  text-align: center;
+}
 .alert {
   padding: 0.5rem;
 }
